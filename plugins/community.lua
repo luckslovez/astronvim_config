@@ -8,7 +8,7 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.rust" },
   -- { import = "astrocommunity.pack.python" },
-  -- { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.bash" },
