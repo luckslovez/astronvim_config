@@ -18,7 +18,12 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "tokyonight",
+  -- colorscheme = "tokyonight",
+  -- colorscheme = "dracula-soft",
+  -- colorscheme = "dracula",
+  colorscheme = "kanagawa-wave",
+  -- colorscheme = "kanagawa-dragon",
+  -- colorscheme = "kanagawa-lotus",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
