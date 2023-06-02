@@ -18,10 +18,11 @@ return {
   },
 
   -- Set colorscheme to use
+  -- colorscheme is set by plugins/auto-dark-mode.lua
   -- colorscheme = "tokyonight",
   -- colorscheme = "dracula-soft",
   -- colorscheme = "dracula",
-  colorscheme = "kanagawa-wave",
+  -- colorscheme = "kanagawa-wave",
   -- colorscheme = "kanagawa-dragon",
   -- colorscheme = "kanagawa-lotus",
 
