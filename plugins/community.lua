@@ -6,11 +6,25 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.note-taking.obsidian-nvim" },
+  {
+    "epwalsh/obsidian.nvim",
+    opts = {
+      daily_notes = {
+        date_format = "%Y.%m.%d",
+      },
+      templates = {
+        subdir = "templates",
+        date_format = "%Y.%m.%d",
+      },
+    },
+  },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.lua" },

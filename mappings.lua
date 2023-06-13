@@ -22,8 +22,13 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["<leader>t"] = { "<cmd>ToDoTxtTasksToggle<cr>" },
+    -- TODO.TXT
+    ["<leader>tt"] = { "<cmd>ToDoTxtTasksToggle<cr>" },
     ["<leader>ta"] = { "<cmd>ToDoTxtCapture<cr>" },
+    -- Obsidian
+    ["<leader>my"] = { "<cmd>ObsidianYesterday<cr>" },
+    ["<leader>mt"] = { "<cmd>ObsidianToday<cr>" },
+    ["<leader>ma"] = { "<cmd>ObsidianTemplate<cr>" },
   },
   t = {
     -- setting a mapping to false will disable it

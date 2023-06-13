@@ -7,7 +7,7 @@ return {
       local todo_file = os.getenv "TODO_FILE"
       if todo_file then
         require("todotxt-nvim").setup {
-          todo_file = os.getenv "TODO_FILE" or "/tmp/todo.txt",
+          todo_file = os.getenv "TODO_FILE",
           -- Keymap used in sidebar split
           keymap = {
             quit = "q",
